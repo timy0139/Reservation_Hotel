@@ -3,7 +3,6 @@
 Client::Client(std::string id, std::string nom, std::string prenom)
     :id_(id), nom_(nom), prenom_(prenom)
 {
-    std::cout<<"id:"<<id<<nom<<prenom;
 }
 
 std::string Client::getId() const
